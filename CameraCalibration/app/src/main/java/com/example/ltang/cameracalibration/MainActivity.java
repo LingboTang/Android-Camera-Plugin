@@ -123,6 +123,9 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
+    /*
+     * Camera Taken
+     */
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
